@@ -1,0 +1,57 @@
+/* estilos.css */
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+#searchForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#searchButton {
+    margin-top: 10px;
+}
+
+#weatherDisplay {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la tabla de resultados (si es necesario) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-link {
+    color: #007bff;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+}
